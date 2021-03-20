@@ -1,0 +1,2 @@
+# rabbitmq-sub
+Rabbitmq subscriber
