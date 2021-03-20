@@ -1,7 +1,7 @@
 {
   "name": "rabbitmq-sub",
   "version": "1.0.0",
-  "main": "build/index.js",
+  "main": "clustered_index.js",
   "repository": "git@github.com:lucasltv/rabbitmq-sub.git",
   "author": "Lucas Vieira <lucas@devplace.com.br>",
   "license": "MIT",
@@ -13,6 +13,7 @@
     "typescript": "^4.2.3"
   },
   "scripts": {
+    "start": "node clustered_index.js",
     "dev": "tsnd --inspect --respawn src/index.ts",
     "lint": "gts lint",
     "clean": "gts clean",
